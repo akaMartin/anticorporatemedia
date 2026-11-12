@@ -3,6 +3,20 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Normal Mac boolshit
+.DS_Store
+
+# Django uploads and build output
+media/
+staticfiles/
+
+# Any local databases, dumps or data files
+*.sqlite3
+*.db
+*.sql
+*.dump
+*.csv
+
 # C extensions
 *.so
 
@@ -158,6 +172,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+!.env.example
 
 # Spyder project settings
 .spyderproject
