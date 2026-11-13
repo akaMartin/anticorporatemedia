@@ -27,11 +27,11 @@ The code, the infrastructure setup, the finances and the product and financial d
 - **Public finances:** a ledger of every cost and every dollar received, in the repo and on the About page, updated monthly
 - **Open by default, swappable where not:** all software is open source (Django, PostgreSQL, Caddy, Docker Engine). Hosted services (DigitalOcean, Spaces, Resend) are proprietary but use standard interfaces. Photos go through the S3 API, and email goes through Django's email backend, so any of them can be replaced without code changes.
 - **What stays private:** posts, messages, account details, and individual reports and moderation cases. Moderation is published only as a periodic aggregate transparency report (counts by type and action taken).
-- **Contributions:** open issues and pull requests from anyone. Martin keeps final say on merges and direction, and records significant calls in the decision log.
+- **Contributions:** open issues and pull requests from anyone. Tristan and Martin keep final say on merges and direction, and records significant calls in the decision log.
 
 ## Audience and scale
 
-It launches for Martin's friend group and grows only as members invite their own friends.
+It launches for our friend group and grows only as members invite their own friends.
 
 - **Now:** a small group of mostly non-technical adult friends, on desktop and mobile browsers
 - **Later:** friends of friends through invite chains, likely hundreds to low thousands of people
@@ -144,7 +144,7 @@ It is built locally first, tried by friends on staging, and opened to invites on
 
 ## How it's built
 
-Claude chat (a Claude project connected to this repo) handles architecture, product decisions and debugging strategy. Claude Code builds and verifies in the repo, following `CLAUDE.md`. Martin approves changes and runs deploys.
+Tristan and Martin handle achitecture, product decisions, and strategy. Claude Code biulds and verifies in the repo, following 'CLAUDE.md' and 'spec.md'. Martin or Tristan approve changes. 
 
 ## Open questions
 

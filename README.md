@@ -20,6 +20,12 @@ These principles define how the project is designed to work, and all design deci
 
 We're not trying to be too heavy handed about this. We  want people to have fun on social media again. 
 
+## Who are we? 
+
+- Tristan Kiel. Software engineer and architect
+- Martin Bergstrom. Economist and technologist
+- You? Wanna help us build something cool and useful? 
+
 ## Anything else? 
 
 - I dunno, have fun? 
